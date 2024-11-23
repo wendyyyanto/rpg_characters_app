@@ -28,3 +28,23 @@ class Character with Stats {
     skills.add(skill);
   }
 }
+
+List<Character> characters = [
+  Character(
+      id: '1',
+      name: "Alice",
+      slogan: "I'm the best!",
+      vocation: Vocation.wizard),
+  Character(
+      id: '2', name: "Bob", slogan: "I'm the best!", vocation: Vocation.raider),
+  Character(
+      id: '3',
+      name: "Charlie",
+      slogan: "I'm the best!",
+      vocation: Vocation.junkie),
+  Character(
+      id: '4',
+      name: "David",
+      slogan: "I'm the best!",
+      vocation: Vocation.ninja),
+];
